@@ -1,0 +1,69 @@
+.hide{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #111;
+    z-index: 3;
+    color: rgb(112, 133, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-out;
+    pointer-events: none;
+}
+.hidetext{
+    overflow: hidden;
+    font-size: 2rem;
+}
+.blueCurtain{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: rgb(112, 133, 250);
+}
+.one,.two,.three{
+    display: inline-block;
+    transform: translateY(100%);
+    transition: 1 ease-out;
+}
+#root{
+    opacity: 0;
+    pointer-events: none;
+}
+.cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px dashed #111;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    transition: 0.1s;
+}
+.cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(93, 33, 209, 0.7);
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    transition: 0.15s;
+}
+
+@media only screen and (max-width:800px){
+    .cursor,.cursor2{
+        width: 0;
+        height: 0;
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/socialCommentTest/static/css/main.79626af2.chunk.css",
+    "main.js": "/socialCommentTest/static/js/main.7949c106.chunk.js",
+    "main.js.map": "/socialCommentTest/static/js/main.7949c106.chunk.js.map",
+    "runtime-main.js": "/socialCommentTest/static/js/runtime-main.31574236.js",
+    "runtime-main.js.map": "/socialCommentTest/static/js/runtime-main.31574236.js.map",
+    "static/js/2.63d7ce3e.chunk.js": "/socialCommentTest/static/js/2.63d7ce3e.chunk.js",
+    "static/js/2.63d7ce3e.chunk.js.map": "/socialCommentTest/static/js/2.63d7ce3e.chunk.js.map",
+    "index.html": "/socialCommentTest/index.html",
+    "static/css/main.79626af2.chunk.css.map": "/socialCommentTest/static/css/main.79626af2.chunk.css.map",
+    "static/js/2.63d7ce3e.chunk.js.LICENSE.txt": "/socialCommentTest/static/js/2.63d7ce3e.chunk.js.LICENSE.txt",
+    "static/media/banner.e4aa35b2.png": "/socialCommentTest/static/media/banner.e4aa35b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31574236.js",
+    "static/js/2.63d7ce3e.chunk.js",
+    "static/css/main.79626af2.chunk.css",
+    "static/js/main.7949c106.chunk.js"
+  ]
+}
