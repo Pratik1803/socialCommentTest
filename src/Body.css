@@ -1,0 +1,142 @@
+main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#main-section-info{
+    height: 100%;
+    width: 50vw;
+    padding: 3vw;
+}
+#main-section-img{
+    width: 50vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.5vw;
+}
+#main-img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+#main-headline{
+    font-size: 48px;
+    padding: 2vh 0;
+    font-weight: 800;
+}
+#main-section-info p{
+    padding: 2vh 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+#main-page-btns{
+    padding: 3vh 0;
+}
+#get-started{
+    border-radius: 50px;
+    background-color: #2039CE;
+    color: #fff;
+    text-transform: none;
+    margin: 10px;
+    width: 150px;
+}
+#get-started p{
+    padding: 5px;
+    font-size: 16px;
+}
+#watch-video{
+    border-radius: 50px;
+    color: #2039ce;
+    text-transform: none;
+    margin: 10px;
+}
+#watch-video p{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+#integrations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5vw;
+    bottom: 6vh;
+}
+#integrations label{
+    padding: 10px 20px;
+}
+#integrations ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#integrations ul li{
+    margin: 10px;
+}
+
+
+
+@media only screen and (max-width : 850px) {
+    main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        position: relative;
+    }
+    #main-section-info{
+        width: 80vw;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0;
+    }
+    #main-section-img{
+        width: 70vw;
+        padding: 5vh 0;
+    }
+    #integrations{
+        position: inherit;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width : 510px){
+    #main-section-info{
+        width: 90vw;
+    }
+    #main-section-img{
+        padding: 0;
+    }
+    #get-started{
+        width: 100px;
+    }
+    #get-started p{
+        font-size: 12px;
+    }
+    #watch-video svg{
+        height: 0;
+        width: 0;
+    }
+    #watch-video p{
+        font-size: 16px;
+    }
+    #integrations{
+        margin-top: 0;
+    }
+    #integrations ul li{
+        margin: 3px;
+    }
+    #integrations svg{
+        margin-right: 0;
+    }
+}
